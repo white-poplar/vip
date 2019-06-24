@@ -22,7 +22,7 @@ function show(){
     	var index = layer.open({
             skin: 'layui-layer-molv'
             ,title:'打赏我，请我吃包辣条！'
-  			,content: '<span style="display:block;text-align:center;font-size:20px;">微信扫一扫</span><img style="display:block;margin:0 auto;height:200px;width:200px;" src="images/wxpay.jpg"><span style="display:block;font-size:14px;text-align:center;margin-top:10px;">不打赏也可播放，感谢捐助</span>'
+  			,content: '<span style="display:block;text-align:center;font-size:20px;">微信扫一扫</span><img style="display:block;margin:0 auto;height:200px;width:200px;" src="//cdn.jsdelivr.net/gh/white-poplar/vip@v1.0/images/wxpay.jpg"><span style="display:block;font-size:14px;text-align:center;margin-top:10px;">不打赏也可播放，感谢捐助</span>'
   			,area: '220px'
           	,scrollbar: false
           	,btn: ['直接播放']
