@@ -3,7 +3,7 @@ function start(){
 	if(urlPass(videoUrl)){
         // 设置 sessionStorage
         sessionStorage.setItem("videoUrl", videoUrl);
-		var url = "http://mv.688ing.com/player?url="+videoUrl;
+		var url = "http://app.baiduoos.cn:2019/vip/?url="+videoUrl;
         layui.use('layer', function(){
 			  layer.open({
 			  type: 2
@@ -61,3 +61,4 @@ videoUrlSet();
 // http://www.wmxz.wang/admin.php?url=  2019-2-12 20:50:54
 // http://app.baiyug.cn:2019/vip/index.php?url=  2019-3-3 21:50:13
 // http://mv.688ing.com/player?url= 2019-6-12 11:49:15
+// http://app.baiduoos.cn:2019/vip/?url= 2019-7-6 20:47:08
