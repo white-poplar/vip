@@ -3,7 +3,7 @@ function start() {
     if (urlPass(videoUrl)) {
         // 设置 sessionStorage
         sessionStorage.setItem("videoUrl", videoUrl);
-        var url = "http://17kyun.com/api.php?url=" + videoUrl;
+        var url = "https://jx.aidouer.net/?url=" + videoUrl;
         layui.use('layer', function() {
             layer.open({
                 type: 2,
